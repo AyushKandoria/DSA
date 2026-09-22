@@ -6,9 +6,10 @@
 6        for(int i=0;i<nums.length;i++){
 7            if(i%2==0){
 8                newarr[i]=nums[left++];
-9            }
-10            else newarr[i]=nums[right++];
-11        }
-12        return newarr;
-13    }
-14}
+9            }else{
+10                newarr[i]=nums[right++];
+11            }
+12        }
+13        return newarr;
+14    }
+15}
